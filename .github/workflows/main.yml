@@ -26,5 +26,5 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            ferzim:conversao-temperatura-semanak8s:latest
-            ferzim:conversao-temperatura-semanak8s:${{ github.run_number }}
+            ferzim/conversao-temperatura-semanak8s:latest
+            ferzim/conversao-temperatura-semanak8s:${{ github.run_number }}
